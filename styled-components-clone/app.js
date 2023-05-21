@@ -12,4 +12,12 @@ const title = styled("h1")`
 	color: blue;
 `;
 
-console.log(title);
+const subtitle = styled("h2")`
+	border-radius: 10px;
+	color: tomato;
+`;
+
+title.innerText = "Hola";
+subtitle.innerText = "it's styled components";
+
+document.body.append(title, subtitle);
